@@ -1,0 +1,31 @@
+#root {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0rem;
+  text-align: center;
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+@font-face {
+  font-family: sharetech;
+  src: url(./assets/fonts/ShareTech/ShareTech-Regular.ttf);
+}
+
+@font-face {
+  font-family: sharetech-mono;
+  src: url(./assets/fonts/ShareTech/ShareTechMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto-condensed;
+  src: url(./assets/fonts/RobotoCondensed/RobotoCondensed-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: sharetech;
+}
+
+h1 {
+  font-family: sharetech-mono;
+}

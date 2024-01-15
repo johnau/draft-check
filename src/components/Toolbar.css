@@ -1,0 +1,72 @@
+@font-face {
+    font-family: sharetech;
+    src: url(./assets/fonts/ShareTech/ShareTech-Regular.ttf);
+}
+  
+.company-name div, .company-name p {
+    font-family: 'sharetech-mono', sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+.custom-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-toolbar .menu-button {
+    font-family: 'sharetech', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(125, 125, 125, 0.0);
+    transition: background-color 0.3s ease; 
+    border-radius: 0px;
+    &:hover {
+        background-color: rgba(125, 125, 125, 0.4);
+    }
+}
+
+.custom-toolbar .try-ai-button {
+    font-family: 'sharetech', sans-serif;
+    font-size: 18px;
+    color: #000;
+    background: linear-gradient(45deg, #FFFFFF 30%, #FFFFFF 90%);
+    transition: background 1s ease-in-out;
+    border-radius: 0px;    
+    border: 2px solid #000;
+    clip-path: polygon(
+        10px 0, calc(100% - 10px) 0, 100% 10px, 100% calc(100% - 10px),
+        calc(100% - 10px) 100%, 10px 100%, 0 calc(100% - 10px), 0 10px
+      );
+    &:hover {
+        background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    }
+}
+
+.custom-toolbar .try-ai-button-border {
+    border: 1.5px solid #fff;
+    clip-path: polygon(
+        12px 0, calc(100% - 12px) 0, 100% 12px, 100% calc(100% - 12px),
+        calc(100% - 12px) 100%, 12px 100%, 0 calc(100% - 12px), 0 12px
+      );
+}
+
+.service-menu .service-menu-item {
+    font-family: 'sharetech-mono', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+
+/* .menu-items {
+    .MuiMenu-paper {
+        font-family: 'sharetech', sans-serif;
+    }
+
+    .MuiMenuItem-root {
+        font-size: 14px;
+        color: #fff;
+    }
+} */
+

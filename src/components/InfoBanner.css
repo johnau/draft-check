@@ -1,0 +1,22 @@
+.horizontal-line {
+
+    background-color: #fff;
+    height: 1px;
+    width: 100vw;
+
+}
+
+.content-box {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.content-box .content-text {
+    font-family: 'sharetech-mono', sans-serif;
+    font-size: 1em;
+    color: #b0b0b0;
+}
+
+.content-box .content-text .content-author {
+    font-family: 'sharetech', sans-serif;
+    color: #b0b0b0;
+}

@@ -1,0 +1,55 @@
+@font-face {
+    font-family: sharetech;
+    src: url(./assets/fonts/ShareTech/ShareTech-Regular.ttf);
+}
+  
+@keyframes buttonGradientAnimation {
+    0% {
+        background-size: 300% 100%;
+      }
+      50% {
+        background-size: 100% 75%;
+      }
+      100% {
+        background-size: 300% 10%;
+      }
+}
+
+.button-container .try-ai-button {
+    font-family: 'sharetech', sans-serif;
+    font-size: 2.5em;
+    color: #000;
+    background: linear-gradient(45deg, #FFFFFF 30%, #FFFFFF 90%);
+    
+    transition: background 1s ease-in-out;
+    border-radius: 0px;    
+    border: 1px solid #000;
+    clip-path: polygon(
+        20px 0, calc(100% - 20px) 0, 100% 20px, 100% calc(100% - 20px),
+        calc(100% - 20px) 100%, 20px 100%, 0 calc(100% - 20px), 0 20px
+      );
+    padding: 3px 20px 3px 20px;
+    &:hover {
+        background: linear-gradient(45deg, #FE6B8B 5%, #FF8E53 95%);
+        animation: buttonGradientAnimation 2s infinite;    
+    };
+}
+
+.button-container .ai-button-message {
+    font-family: 'sharetech', sans-serif;
+    font-size: 5em;
+    transition: color 1s ease-in-out;
+}
+
+.button-container .ai-button-message-inner {
+    font-family: 'sharetech', sans-serif;
+    font-size: 1.5em;
+    transition: color 1s ease-in-out;
+}
+
+.orange-color {
+    color: #FF8E53;
+}
+.red-color {
+    color: #FE6B8B;
+}

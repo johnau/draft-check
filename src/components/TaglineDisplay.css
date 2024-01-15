@@ -1,0 +1,14 @@
+/* 
+.tagline-text-box .tagline-text {
+    font-family: 'sharetech', sans-serif;
+    font-size: 3.5em;
+  }
+   */
+/* RobotoCondensed-VariableFont_wght.ttf */
+   
+.tagline-text-box .tagline-text {
+    font-family: 'roboto-condensed', sans-serif;
+    font-size: 5em;
+    font-weight: 800;
+}
+  

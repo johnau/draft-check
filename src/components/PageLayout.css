@@ -1,0 +1,40 @@
+@font-face {
+    font-family: sharetech;
+    src: url(./assets/fonts/ShareTech/ShareTech-Regular.ttf);
+}
+  
+@font-face {
+    font-family: sharetech-mono;
+    src: url(./assets/fonts/ShareTech/ShareTechMono-Regular.ttf);
+}
+
+.page-box h1, .page-box h2, .page-box h3, .page-box h4, .page-box h5, .page-box h6 {
+    font-family: 'sharetech-mono', sans-serif;
+    color: #000;
+}
+
+.page-box .content p {
+    font-family: 'sharetech', sans-serif;
+    color: #000;
+    font-size: 1.25em;
+}
+
+.page-box .content .plain-text {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 1.0em;
+}
+
+div .large-black-button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+    font-family: 'sharetech', sans-serif;
+    font-size: 1.5em;
+    padding: 0px 40px;
+    margin: 20px 0px;
+    &:hover {
+        background-color: yellow;
+        color: #000;
+    }
+}

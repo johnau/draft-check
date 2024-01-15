@@ -1,0 +1,15 @@
+<svg width="175" height="175" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" enable-background="new 0 0 121.702 122.881" version="1.1">
+
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <path fill="#fff" id="svg_2" d="m103.40805,8.47761c14.806,0 28.21,6.001 37.913,15.705c9.703,9.703 15.704,23.107 15.704,37.913c0,10.832 -3.213,20.914 -8.737,29.346l23.205,25.291l-16.001,14.627l-22.379,-24.624c-8.503,5.67 -18.718,8.977 -29.705,8.977c-14.806,0 -28.21,-6.002 -37.913,-15.705c-9.703,-9.704 -15.704,-23.108 -15.704,-37.913c0,-14.806 6.001,-28.21 15.704,-37.913c9.703,-9.703 23.108,-15.704 37.913,-15.704l0,0zm33.683,19.934c-8.619,-8.62 -20.528,-13.951 -33.683,-13.951s-25.063,5.332 -33.683,13.951c-8.62,8.62 -13.952,20.529 -13.952,33.683s5.332,25.063 13.952,33.682c8.62,8.621 20.528,13.951 33.683,13.951s25.064,-5.33 33.683,-13.951c8.62,-8.619 13.951,-20.527 13.951,-33.682s-5.331,-25.063 -13.951,-33.683l0,0z"/>
+  </g>
+  <line stroke="#fff" transform="rotate(90, 114.902, 137.478)" stroke-width="5" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_3" y2="137.47761" x2="139.51309" y1="137.47761" x1="90.29104" fill="none"/>
+  <line stroke="#fff" transform="rotate(90, 10.5317, 107.663)" stroke-width="5" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="107.66279" x2="64.17977" y1="107.66279" x1="-43.11636" fill="none"/>
+  <line stroke="#fff" stroke-width="4" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_6" y2="56.08872" x2="50.64273" y1="56.08872" x1="8.60586" fill="none"/>
+  <line stroke="#fff" stroke-width="4" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="161.97761" x2="117.0131" y1="161.97761" x1="8.3466" fill="none"/>
+  <line stroke="#fff" transform="rotate(90, 120.409, 66.4851)" stroke-width="16" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="66.48511" x2="164.01306" y1="66.48511" x1="76.80593" fill="none"/>
+  <line stroke="#fff" stroke-width="15" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_9" y2="47.96269" x2="135.74444" y1="47.96269" x1="55.56882" fill="none"/>
+ </g>
+</svg>

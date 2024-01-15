@@ -1,0 +1,44 @@
+/* 
+@font-face {
+    font-family: sharetech;
+    src: url(./assets/fonts/ShareTech/ShareTech-Regular.ttf);
+}
+  
+@font-face {
+    font-family: sharetech-mono;
+    src: url(./assets/fonts/ShareTech/ShareTechMono-Regular.ttf);
+}
+   */
+.left-box {
+    font-family: 'sharetech', sans-serif;
+}
+.right-box {
+    font-family: 'sharetech', sans-serif;
+}
+
+.white-link {
+    font-family: 'sharetech-mono', sans-serif;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    &:hover {
+        color: cornflowerblue;
+        text-decoration: underline;
+    }
+}
+
+.white-link .white-link {
+    font-family: 'sharetech-mono', sans-serif;
+    color: white;
+    cursor: pointer;
+    &:hover {
+        color: cornflowerblue;
+        text-decoration: underline;
+    }    
+}
+
+.left-box .white-text {
+    font-family: 'sharetech', sans-serif;
+    color: white;
+    font-size: 0.75em;
+}
